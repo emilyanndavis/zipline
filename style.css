@@ -1,0 +1,109 @@
+/* Backgrounds */
+
+.bg-header {
+    background-color: #48c;
+
+    background: linear-gradient(
+      to right, 
+      rgba(68, 136, 204, 1) 50%, 
+      rgba(68, 136, 204, 0.4)
+    ), url(http://i.onionstatic.com/onion/2881/3/16x9/1200.jpg);
+  
+    background-size: contain;
+    background-repeat: repeat-x;
+    background-position: right bottom;
+    padding: 100px 0px;
+}
+
+.bg-features {
+    background-color: #7c8;
+    padding: 80px 0px;
+    color: #fefefe;
+}
+
+.bg-signup {
+    background: #fefefe;
+    padding: 80px 0px;
+    color: #111;
+}
+
+.bg-map {
+    background: #ddd;
+}
+
+.bg-footer {
+    background-color: #111;
+    padding: 30px 0 20px 0;
+}
+
+/* General Text Styling */
+
+p, .btn, .form-inline {
+    font-family: HelveticaNeue, Helvetica, sans-serif;
+    letter-spacing: 0.5px;
+}
+
+h1, h3 {
+    font-family: Futura, HelveticaNeue, Helvetica, sans-serif;
+}
+
+/* Buttons */
+
+.btn-header {
+    text-transform: uppercase;
+    background-color: #048;
+    color: #fefefe;
+    border-color: #048;
+} 
+
+.btn-subscribe {
+    background-color: #48c;
+    color: #fefefe;
+    border-color: #48c;
+}
+
+.btn-header:hover, .btn-subscribe:hover {
+    background-color: #159;
+    color: #fefefe;
+    border-color: #048;
+}
+
+/* Header */
+
+.header-text {
+    color: #afb;
+    padding: 10px 5px;
+}
+
+/* Features Section */
+
+.feature {
+    color: white;
+    text-align: center;
+    padding: 10px 5px;
+}
+
+.feature-icon {
+    font-size: 64px;
+}
+
+/* Newsletter Signup Section */
+
+.newsletter-signup {
+    text-align: center;
+}
+
+/* Footer */
+
+.social-media-group, .disclaimer-text {
+    color: #fefefe;
+    text-align: center;
+}
+
+.disclaimer-text {
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+
+
